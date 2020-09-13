@@ -4,6 +4,7 @@ import "../Styles/Nav.css";
 function Nav() {
   const [show, handleShow] = useState(false);
 
+  // Listener for the black background-color on scrolling down
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
